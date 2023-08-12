@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Hub! - Created by Sohan</title>
+    <script src="https://kit.fontawesome.com/5b9b876992.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/app.js"> </script>
+  </head>
+  <body>
+    <div id="body-container">
+      <section id="playlist-section-container">
+        <div id="playlist-section">
+          <h1 id="playlist-section-head">Playlist
+            <ul>
+              <li> <a href="/"><i class="fa-solid fa-music" id="musicIcon"></i>
+                  <p id="myPlaylist">My Playlist  </p></a></li>
+              <li> <a href="/"><i class="fa-solid fa-headphones" id="headphoneIcon"></i>
+                  <p id="lastListening">Last Listening</p></a></li>
+              <li> <a href="/"><i class="fa-solid fa-snowflake" id="snowflakeIcon"></i>
+                  <p id="recommended">Recommended</p></a></li>
+            </ul>
+          </h1>
+        </div>
+        <div id="playlist-section-container-song-list">
+          <div class="playlist-section-container-song" id="playlist-section-container-song-1">
+            <p class="playlist-section-container-song-num" id="chequesAnim">01</p><img src="/images/songs%20cover%20image/cheques%20cover%20img.jpg" alt="" id="chequesPlay">
+            <h3 id="cheques-head">Cheques </h3>
+            <p class="playlist-section-container-song-p" id="cheques-p">Shubh</p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-2">
+            <p class="playlist-section-container-song-num" id="bestofmeAnim">02</p><img src="/images/songs%20cover%20image/Best%20of%20me%20cover%20img.jpg" alt="" id="bestofmePlay">
+            <h3 id="bestofme-head">Best of Me</h3>
+            <p class="playlist-section-container-song-p" id="neffex-p">Neffex</p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-3">
+            <p class="playlist-section-container-song-num" id="akhiyaanAnim">03</p><img src="/images/songs%20cover%20image/akhiyaan%20cover%20img.jpg" alt="" id="akhiyaanPlay">
+            <h3 id="akhiyaan-head">Akhiyaan </h3>
+            <p class="playlist-section-container-song-p" id="akhiyaan-p">Mitraz</p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-4">
+            <p class="playlist-section-container-song-num" id="jannateinAnim">04</p><img src="/images/songs%20cover%20image/jannatein%20kahan%20cover%20img.jpg" alt="" id="jannateinPlay">
+            <h3 id="jannatein-head">Jannatein Kahan</h3>
+            <p class="playlist-section-container-song-p" id="jannatein-p">KK</p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-5">
+            <p class="playlist-section-container-song-num" id="levelsAnim">05</p><img src="/images/songs%20cover%20image/levels%20cover%20img.jpg" alt="" id="levelsPlay">
+            <h3 id="levels-head">Levels </h3>
+            <p class="playlist-section-container-song-p" id="levels-p">Sidhu Moosewala </p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-6">
+            <p class="playlist-section-container-song-num" id="sakhiyaanAnim">06</p><img src="/images/songs%20cover%20image/sakhiyaan%20cover%20img.jpg" alt="" id="sakhiyaanPlay">
+            <h3 id="sakhiyaan-head">Sakhiyaan </h3>
+            <p class="playlist-section-container-song-p" id="sakhiyaan-p">Maninder Buttar</p>
+          </div>
+          <div class="playlist-section-container-song" id="playlist-section-container-song-7">
+            <p class="playlist-section-container-song-num" id="aisekyunAnim">07</p><img src="/images/songs%20cover%20image/aise%20kyun%20cover%20img.jpg" alt="" id="aisekyunPlay">
+            <h3>Aise Kyun </h3>
+            <p class="playlist-section-container-song-p">Mismatched</p>
+          </div>
+        </div>
+      </section>
+      <section id="main-section">
+        <div id="main-section-container-1">
+          <nav id="main-navbar">
+            <div id="left-items-nav">
+              <ul> 
+                <li class="list-items-nav"><a href="/">DISCOVER</a></li>
+                <li class="list-items-nav"><a href="/">MY LIBRARY</a></li>
+                <li class="list-items-nav"> <a href="/">RADIO</a></li>
+              </ul>
+            </div>
+            <div id="search-bar-nav"><i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+              <input type="text" name="search" placeholder="Search artists, songs...">
+            </div>
+          </nav>
+          <div id="song-detail-container">
+            <h1 id="song-name-change-js">No songs are Playing</h1>
+            <p id="p-change-js">About Song</p>
+            <div id="buttons-song-detail">
+              <input class="song-details-buttons" type="button" value="PLAY" id="play-button">
+              <input class="song-details-buttons" type="button" value="FOLLOW" id="follow-button">
+            </div>
+          </div>
+          <div id="popular-songs-container">
+            <h1>Popular Songs</h1>
+            <div id="popular-song-main-container">
+              <div class="popular-songs" id="1st-song-popular"><img src="/images/songs%20cover%20image/double%20take%20cover%20img.jpg" alt="Song Poster" id="doubletakePlay">
+                <div class="song-popular-child" id="1st-song-popular-child-1">
+                  <p id="doubletake-head">Double Take</p>
+                  <p class="song-popular-child-p-2" id="doubletake-p">Dhruv</p>
+                </div>
+              </div>
+              <div class="popular-songs" id="2nd-song-popular"><img src="/images/songs%20cover%20image/heroes%20tonight%20cover%20img.jpg" alt="Song Poster" id="heroesPlay">
+                <div class="song-popular-child" id="2nd-song-popular-child-1">
+                  <p id="heroes-head">Heroes Tonight</p>
+                  <p class="song-popular-child-p-2" id="heroes-p">NCS</p>
+                </div>
+              </div>
+              <div class="popular-songs" id="3rd-song-popular"><img src="/images/songs%20cover%20image/night%20changes%20cover%20img.jpg" alt="Song Poster" id="nightchangesPlay">
+                <div class="song-popular-child" id="3rd-song-popular-child-1">
+                  <p id="nightchanges-head">Night Changes </p>
+                  <p class="song-popular-child-p-2" id="nightchanges-p">One Direction </p>
+                </div>
+              </div>
+              <div class="popular-songs" id="4th-song-popular"><img src="/images/songs%20cover%20image/right%20now%20cover%20img.jpg" alt="Song Poster" id="rightnowPlay">
+                <div class="song-popular-child" id="4th-song-popular-child-1">
+                  <p id="rightnow-head">Right Now </p>
+                  <p class="song-popular-child-p-2" id="rightnow-p">Akon </p>
+                </div>
+              </div>
+              <div class="popular-songs" id="5th-song-popular"><img src="/images/songs%20cover%20image/shape%20of%20you%20cover%20img.jpg" alt="Song Poster" id="shapePlay">
+                <div class="song-popular-child" id="5th-song-popular-child-1">
+                  <p id="shape-head">Shape of you </p>
+                  <p class="song-popular-child-p-2" id="shape-p">Ed Sheeren</p>
+                </div>
+              </div>
+              <div class="popular-songs" id="6th-song-popular"><img src="/images/songs%20cover%20image/you%20make%20me%20cover%20img.jpg" alt="Song Poster" id="youmakemePlay">
+                <div class="song-popular-child" id="6th-song-popular-child-1">
+                  <p id="youmakeme-head">You Make Me</p>
+                  <p class="song-popular-child-p-2" id="youmakeme-p">Avicci</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="sliding-bar-container">
+      <div id="footer-left"><img src="/songs/gif/Cad.webp" alt="Not available" id="footer-left-img-1"><img src="/images/songs%20cover%20image/cheques%20cover%20img.jpg" alt="" id="footer-left-img-2">
+        <div id="footer-left-child-container">
+          <p class="footer-left-child" id="footer-left-child-1">No Songs</p>
+          <p class="footer-left-child" id="footer-left-child-2"></p>
+        </div>
+      </div>
+      <div id="footer-control"><i class="fa-solid fa-backward-step"></i><i class="fa-regular fa-circle-play" id="playPauseIcon"></i><i class="fa-solid fa-forward-step"></i></div>
+      <div id="footer-play">
+        <p id="currentTime">00:00</p>
+        <input type="range" name="songRange" value="0" id="songRange">
+        <p id="songDuration">3:59</p>
+      </div>
+      <div id="footer-right"><i class="fa-solid fa-volume-high"></i>
+        <progress value="50" max="100"></progress>
+      </div>
+    </footer>
+  </body>
+</html>
