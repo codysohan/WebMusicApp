@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const bestOfMe = new Audio('songs/Best%20of%20me.mp3');
     const akhiyaan = new Audio('songs/akhiyaan.mp3');
     const jannateinKahan = new Audio('songs/Jannatein%20Kahan.mp3');
-    const levels = new Audio('songs/Levels.mp3');
+    const levels = new Audio('songs/levels.mp3');
     const sakhiyaan = new Audio('songs/Sakhiyaan.mp3');
     const aiseKyun = new Audio('songs/aise%20kyun.mp3');
     
