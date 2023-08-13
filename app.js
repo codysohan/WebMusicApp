@@ -183,6 +183,7 @@ recommended.addEventListener("mouseout", function() {
                 artistChange.innerText = artistName;
                 playPauseText.value = 'PAUSE';
                 imageChange.src = coverImg;
+                imageChange.style.visibility = "visible";
                 waveGif.style.display = "block";
 
                 headName.style.color = '#00ffd9';
