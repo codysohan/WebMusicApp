@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Some Default value to set to the Elements 
     waveGif.style.display = "none";
-    imageChange.src = "none";
+    imageChange.style.visibility = "hidden";
 
 // For changing icon color while hovering playlist elements 
 myPlaylist.addEventListener("mouseover", function() {
@@ -206,7 +206,7 @@ recommended.addEventListener("mouseout", function() {
                 playPauseText.value = 'PLAY';
                 artistChange.innerText = '';
                 waveGif.style.display = "none";
-                imageChange.src = "none";
+                imageChange.style.visibility = "hidden";
 
                 songRange.value = 0;
                 // currentSong = null;
