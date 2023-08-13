@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const cheques = new Audio('songs/Cheques.mp3')
-    const bestOfMe = new Audio('songs/Best%20of%20me.mp3')
-    const akhiyaan = new Audio('songs/akhiyaan.mp3')
-    const jannateinKahan = new Audio('songs/jannatein%20kahan.mp3')
-    const levels = new Audio('songs/levels.mp3')
-    const sakhiyaan = new Audio('songs/Sakhiyaan.mp3')
-    const aiseKyun = new Audio('songs/aise%20kyun.mp3')
+    const cheques = new Audio('songs/Cheques.mp3');
+    const bestOfMe = new Audio('songs/Best%20of%20me.mp3');
+    const akhiyaan = new Audio('songs/akhiyaan.mp3');
+    const jannateinKahan = new Audio('songs/jannatein%20kahan.mp3');
+    const levels = new Audio('songs/levels.mp3');
+    const sakhiyaan = new Audio('songs/Sakhiyaan.mp3');
+    const aiseKyun = new Audio('songs/aise%20kyun.mp3');
     
-    const doubleTake = new Audio('songs/double%20take.mp3')
-    const heroesTonight = new Audio('songs/heroes%20tonight.mp3')
-    const nightChanges = new Audio('songs/night%20changes.mp3')
-    const rightNow = new Audio('songs/right%20now.mp3')
-    const shapeOfYou = new Audio('songs/shape%20of%20you.mp3')
-    const youMakeMe = new Audio('songs/you%20make%20me.mp3')
+    const doubleTake = new Audio('songs/double%20take.mp3');
+    const heroesTonight = new Audio('songs/Heroes%20Tonight.mp3');
+    const nightChanges = new Audio('songs/Night%20Changes.mp3');
+    const rightNow = new Audio('songs/Right%20Now.mp3');
+    const shapeOfYou = new Audio('songs/Shape%20of%20You.mp3');
+    const youMakeMe = new Audio('songs/You%20Make%20Me.mp3');
 
 
 
@@ -85,11 +85,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Cover Image Src for DOM manipulation
     const chequesImg = "images/songs%20cover%20image/cheques%20cover%20img.jpg";
-    const bestofmeImg = "images/songs%20cover%20image/Best%20of%20me%20cover%20img.jpg";
+    const bestofmeImg = "images/songs%20cover%20image/best%20of%20me%20cover%20img.jpg";
     const akhiyaanImg = "images/songs%20cover%20image/akhiyaan%20cover%20img.jpg";
     const jannateinImg = "images/songs%20cover%20image/jannatein%20kahan%20cover%20img.jpg";
     const levelsImg = "images/songs%20cover%20image/levels%20cover%20img.jpg";
-    const sakhiyaanImg = "/images/songs%20cover%20image/sakhiyaan%20cover%20img.jpg";
+    const sakhiyaanImg = "images/songs%20cover%20image/sakhiyaan%20cover%20img.jpg";
     
     const doubletakeImg = "images/songs%20cover%20image/double%20take%20cover%20img.jpg"
     const heroesImg = "images/songs%20cover%20image/heroes%20tonight%20cover%20img.jpg"
